@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleGetInfoString</key>
+	<string>v002 Optical Flow version 2.0.2, Copyright vade.</string>
+	<key>CFBundleIdentifier</key>
+	<string>info.vade.${PRODUCT_NAME:identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0.3</string>
+	<key>CFBundleVersion</key>
+	<string>2.0.3</string>
+	<key>QCPlugInClasses</key>
+	<array>
+		<string>v002GPUHSFlowPlugIn</string>
+		<string>v002GPUHSFlowBlurPlugin</string>
+		<string>v002GPUHSFlowRepositionPlugin</string>
+	</array>
+</dict>
+</plist>
