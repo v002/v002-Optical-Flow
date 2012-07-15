@@ -2,6 +2,7 @@
 #define v002_SHADER_CLASS_NAME_REPLACE_ME v002OpticalFlowShader
 #define v002_PLUGIN_CLASS_NAME_REPLACE_ME v002OpticalFlowMasterPluginInterface
 
+#define	kQCPlugIn_Category [NSArray arrayWithObjects:@"v002", @"v002 Optical Flow", nil]
 
 #ifdef __OBJC__
 	#import <Quartz/Quartz.h>
